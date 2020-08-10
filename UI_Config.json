@@ -1,0 +1,90 @@
+{
+   "output_file": "settings.json",
+   "Cooldown": {
+       "type": "numberbox",
+       "value": 120,
+       "label": "Global cooldown for mini-game (in seconds)",
+       "tooltip": "Timer for global cooldown mini-game",
+       "group" : "Settings"
+     },
+  "GameTime": {
+      "type": "numberbox",
+      "value": 60,
+      "label": "Game round timer (in seconds)",
+      "tooltip": "Timer for how long the game round is (in seconds)",
+      "group" : "Settings"
+    },
+  "QueueTime": {
+     "type": "numberbox",
+     "value": 60,
+     "label": "Queue round timer (in seconds)",
+     "tooltip": "Timer for how long the Queue round is (in seconds)",
+     "group" : "Settings"
+   },
+   "MinUsers": {
+       "type": "numberbox",
+       "value": 1,
+       "label": "Min amount of users to start game",
+       "tooltip": "Minimal amount of users to start game",
+       "group" : "Settings"
+     },
+     "WinPoints": {
+         "type": "numberbox",
+         "value": 1000,
+         "label": "Points for cracking the Password",
+         "tooltip": "Points for cracking the code",
+         "group" : "Settings"
+      },
+      "PrefixCommand": {
+        "type": "textbox",
+        "value": "!password",
+        "label": "Command for Password menu",
+        "tooltip": "Command for Password menu",
+        "group" : "Settings"
+      },
+      "TextColor": {
+        "type": "colorpicker",
+        "label": "Password Color",
+        "value": "rgba(255,0,0,255)",
+        "tooltip": "",
+        "group": "Color Pickers"
+      },
+      "PositionalColor": {
+        "type": "colorpicker",
+        "label": "Color if a correct letter is found",
+        "value": "rgba(255,0,0,255)",
+        "tooltip": "",
+        "group": "Color Pickers"
+      },
+      "GuessColor": {
+        "type": "colorpicker",
+        "label": "Color if guessed letter is found",
+        "value": "rgba(230,126,34,1)",
+        "tooltip": "",
+        "group": "Color Pickers"
+      },
+      "InTransition": {
+        "type": "dropdown",
+        "value": "SlideRight",
+        "items": ["SlideUp","SlideDown","SlideLeft","SlideRight","Fade","Bounce"],
+        "label": "In Transition",
+        "tooltip": "Set how the alert transitions in",
+        "group": "Transition"
+      },
+      "OutTransition": {
+        "type": "dropdown",
+        "value": "SlideRight",
+        "items": ["SlideUp","SlideDown","SlideLeft","SlideRight","Fade","Bounce"],
+        "label": "Out Transition",
+        "tooltip": "Set how the alert transitions out",
+        "group": "Transition"
+      },
+      "btnreadme": {
+      "type": "button",
+      "label": "open readme",
+      "tooltip": "read this!",
+      "wsevent": "",
+      "function": "openreadme",
+      "group": ""
+   }
+}
